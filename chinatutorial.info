@@ -1,0 +1,18 @@
+name = chinatutorial
+description = A CUL 7Bootstrap Sub-theme.
+core = 7.x
+
+; Global regions
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Header'
+regions[announcement]   = 'Announcement'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar]        = 'Sidebar'
+regions[footer-primary] = 'Footer primary'
+regions[footer-secondary] = 'Footer secondary'
+regions[home-sidebar] = 'Front page sidebar'
+regions[sitenameblock] = 'Site Name Area'
+
+stylesheets[all][] = css/style.css

@@ -1,0 +1,13 @@
+// Drupal overrides
+//--------------------//
+
+body.admin-menu { padding-top: 0 !important; }
+
+// menu stupidity
+//--------------------//
+footer {
+	ul li.leaf {
+		list-style-type:none;
+		list-style-image:none;
+	}
+}

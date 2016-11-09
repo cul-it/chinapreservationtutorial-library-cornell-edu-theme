@@ -1,0 +1,92 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body,h4,h5,h6,p,li,a {font-family: 'Open Sans' !important}
+h1,h2,h3 {font-family:'Open Sans' !important; font-weight: 400 !important;}
+
+h2 {
+	color:$ruby
+}
+
+.cullabs-logo {
+	width:75%;
+	float:left;
+}
+
+.nav-cullabs ul {
+	width:25%;
+	list-style: none;
+	float:right;
+}
+
+.nav-cullabs ul li {
+	float:left;
+	font-size: 12px;
+	display:inline-block;
+}
+
+.cullabs-header {
+	border-bottom: 1px solid #ebebe7;
+}
+
+.view-nodequeue-1 .views-row {
+	display: block;
+	border-bottom:3px solid #ebebe7;
+	clear:both;
+}
+
+.view-nodequeue-1 .views-row img {
+	margin-bottom:10px;
+}
+
+.hero {border-top: 2em solid;
+background: url("/sites/default/files/RMC2011_0529.png") no-repeat 50% 50%;
+background-size: cover;
+background-color: transparent;
+min-height: 20em;}
+
+.hero {
+	h1 {
+		background: rgba(0, 0, 0, 0.75);
+/* font-weight: bold !important; */
+color: #f6f7e1;
+position: relative;
+top: 4.4em;
+padding: 1em 1em 0 1em;
+
+	}
+}
+
+a {
+	color: $dark-teal
+}
+
+footer {
+	margin-top: 5em;
+}
+
+.home-text {
+	a {line-height: 1.75em;
+		font-size:18px;
+	}
+
+	h2 {
+		width:75%;
+		border-bottom:2px solid #ccc;
+		margin-bottom:3px;
+	}
+}
+
+.navbar {
+	padding-top:1em;
+	margin-bottom:1em;
+}
+
+.region-sitenameblock {
+	position:relative;
+	top:-1em;
+
+	h1{
+	color:white;
+	font-size:24px;
+	}
+}
